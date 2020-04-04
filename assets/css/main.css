@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+   }
+
+.navbar{ background:#1A174A;}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f4f4f4; color: #1A174A; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-image: url('../img/header-background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+   }
+
+.overlay{
+    position: relative;
+    float: left;
+    min-height: 100%;
+    min-width: 100%;
+    /*height:100%;
+    width:100%;*/
+    left: 0;
+    top: 0;
+    background: rgba(26, 23, 74, 0.9);
+   }
+
+ .description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    
+}
+.description h1{
+    color:#FFFFFF ;
+}
+
+.description p{
+    color:#FFFFFF;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+.description button{
+    border:1px  solid #1A174A;
+    background:#1A174A;
+    color:#fff;
+}
+
+.heading {
+    background-color: #1A174A;
+    padding: 1em 15em;
+    margin: 0;
+    display: flex;
+    /*align-items: center;*/
+}
+
+.about{
+    margin: 4em 0;
+    padding: 0;
+    position: relative;
+}
+
+.about h1{
+    color:#FFFFFF;
+}
+
+/*Events*/
+.events{
+    margin: 4em 0;
+    position: relative;
+}
+.events h1{
+    color:#FFFFFF;
+}
+
+/*Contact Us*/
+.contactus{
+    margin: 4em 0;
+    position: relative; 
+}
+.contactus h1{
+    color:#FFFFFF;
+}
+
+.details {
+    margin: 1em 0;
+    line-height: 0.5vmax;
+    font-family: "Raleway";
+}
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+}
+
+.socialmedia img {
+    margin: 0;
+}
+
+/*Find Us*/
+.findus{
+    margin: 4em 0;
+    position: relative; 
+}
+.findus h1{
+    color:#FFFFFF;
+}
+
+/*Sign Up*/
+.signup{
+    margin: 4em 0;
+    position: relative; 
+}
+.signup h1{
+    color:#FFFFFF;
+}
