@@ -67,14 +67,15 @@ html, body {
 
 .heading {
     background-color: #1A174A;
-    padding: 1em 15em;
+    padding: 1em 10em;
     margin: 0;
     display: flex;
+    width: 2em;
     /*align-items: center;*/
 }
 
 .about{
-    margin: 4em 0;
+    margin: 2em 0;
     padding: 0;
     position: relative;
 }
@@ -85,7 +86,7 @@ html, body {
 
 /*Events*/
 .events{
-    margin: 4em 0;
+    margin: 2em 0;
     position: relative;
 }
 .events h1{
@@ -94,7 +95,7 @@ html, body {
 
 /*Contact Us*/
 .contactus{
-    margin: 4em 0;
+    margin: 2em 0;
     position: relative; 
 }
 .contactus h1{
@@ -109,16 +110,16 @@ html, body {
 
 .socialmedia {
     display: flex;
-    align-items: center;
+    align-items: top;
 }
 
 .socialmedia img {
-    margin: 0;
+    margin: 1em;
 }
 
 /*Find Us*/
 .findus{
-    margin: 4em 0;
+    margin: 2em 0;
     position: relative; 
 }
 .findus h1{
